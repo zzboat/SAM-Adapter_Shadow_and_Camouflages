@@ -1,13 +1,13 @@
 task_name: camouflage
 eval_type: cod
-model_checkpoint: /home/sunye_2/zhangchuhan/best_results/best_results/cod/model_epoch_best.pth
+model_checkpoint: TODO:Path to camouflage checkpoint
 
 test_dataset:
   dataset:
     name: paired-image-folders
     args:
-      root_path_1: /share/test/sunye_2/zhangchuhan/COD/COD10K-v3/Test/Image
-      root_path_2: /share/test/sunye_2/zhangchuhan/COD/COD10K-v3/Test/GT_Object
+      root_path_1: TODO:Path to COD10K image directory
+      root_path_2: TODO:Path to COD10K mask directory
       cache: none
       split_key: test
   wrapper:

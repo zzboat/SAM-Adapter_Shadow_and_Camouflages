@@ -1,13 +1,13 @@
 task_name: shadow
 eval_type: ber
-model_checkpoint: /home/sunye_2/zhangchuhan/best_results/best_results/istd/model_epoch_best.pth
+model_checkpoint: TODO:Path to shadow checkpoint
 
 test_dataset:
   dataset:
     name: paired-image-folders
     args:
-      root_path_1: /share/test/sunye_2/zhangchuhan/ISTD/ISTD_Dataset/test/test_A
-      root_path_2: /share/test/sunye_2/zhangchuhan/ISTD/ISTD_Dataset/test/test_B
+      root_path_1: TODO:Path to ISTD image directory
+      root_path_2: TODO:Path to ISTD mask directory
       cache: none
       split_key: test
   wrapper:
